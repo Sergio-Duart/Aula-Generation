@@ -1,4 +1,4 @@
-package Laco_Condicional;
+package LacoCondicional;
 
 import java.util.Scanner;
 
@@ -25,6 +25,6 @@ public class Exercicio2 {
 				ter=num;
 			}
 		}
-		System.out.println("Segue os numeros informados em ordem Crescente: \n"+pri+"\n"+seg+"\n"+ter);
+		System.out.println("\nSegue os numeros informados em ordem Crescente: \n"+pri+"\n"+seg+"\n"+ter);
 	}
 }
