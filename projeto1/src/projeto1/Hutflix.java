@@ -72,7 +72,7 @@ public class Hutflix {
 		
 			if (filmes == 2) {
 				o = JOptionPane.showInputDialog(
-						"Escolha uma caracteristica (Digite um numero): \n1) Ambiciosas\n2) Disciplinadas\n3) Confiáveis ");
+						"Escolha uma caracteristica (Digite um numero): \n1 - Ambiciosas\n2 - Disciplinadas\n3 - Confiáveis ");
 				opcao = Integer.parseInt(o);
 				q = JOptionPane.showInputDialog("Gostaria de 1 ou 2 pizza? levando 2 ganha um refri ! ");
 				op = Integer.parseInt(q);
