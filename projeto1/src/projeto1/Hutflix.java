@@ -40,7 +40,7 @@ public class Hutflix {
 					pizza2 = JOptionPane
 							.showInputDialog("Digite o segundo sabor da sua pizza:\nBaiana\nBacon\nChocolate com confeitos");
 					JOptionPane.showMessageDialog(null, " Será enviado para o endereço " + endereco + " a pizza 1: "
-							+ pizza1 + " e a pizza 2:" + pizza2);
+							+ pizza1 + " e a pizza 2: " + pizza2);
 				}
 				// opcao2
 				if (opcao == 2 && op == 1) {
@@ -52,7 +52,7 @@ public class Hutflix {
 				if (opcao == 2 && op == 2) {
 					pizza1 = JOptionPane.showInputDialog("Digite o primeiro sabor da sua pizza:\nMuçarela\nCalabresa\nAlho");
 					pizza2 = JOptionPane.showInputDialog("Digite o segundo sabor da sua pizza:\nMuçarela\nCalabresa\nAlho");
-					JOptionPane.showMessageDialog(null, " Será enviado para o endereço " + endereco + " a pizza 1:"
+					JOptionPane.showMessageDialog(null, " Será enviado para o endereço " + endereco + " a pizza 1: "
 							+ pizza1 + " e a pizza 2: " + pizza2);
 				}
 				// opcao3
@@ -77,7 +77,7 @@ public class Hutflix {
 				q = JOptionPane.showInputDialog("Gostaria de 1 ou 2 pizza? levando 2 ganha um refri ! ");
 				op = Integer.parseInt(q);
 				if (opcao == 1 && op == 1) {
-					pizza = JOptionPane.showInputDialog("Digite o sabor da sua pizza:\nFrango com catupiry\nRucula com tomate seco\nRomeu e Julieta\n");
+					pizza = JOptionPane.showInputDialog("Digite o sabor da sua pizza:\nFrango com Catupiry\nRucula com tomate seco\nRomeu e Julieta\n");
 					JOptionPane.showMessageDialog(null,
 							" Será enviado para o endereço " + endereco + " a pizza: " + pizza);
 				}
@@ -85,7 +85,7 @@ public class Hutflix {
 					pizza1 = JOptionPane.showInputDialog("Digite o primeiro sabor da sua pizza:\nFrango com Catupiry\nRucula com tomate seco\nRomeu e Julieta\n");
 
 					pizza2 = JOptionPane
-							.showInputDialog("Digite o segundo sabor da sua pizza:\nFrango com catupiry\nRucula com tomate seco\nRomeu e Julieta\n");
+							.showInputDialog("Digite o segundo sabor da sua pizza:\nFrango com Catupiry\nRucula com tomate seco\nRomeu e Julieta\n");
 					JOptionPane.showMessageDialog(null, " Será enviado para o endereço " + endereco + " a pizza 1: "
 							+ pizza1 + " e a pizza 2 :" + pizza2);
 				}
@@ -99,20 +99,20 @@ public class Hutflix {
 				if (opcao == 2 && op == 2) {
 					pizza1 = JOptionPane.showInputDialog("Digite o primeiro sabor da sua pizza:\nAliche\nPortuguesa\nNapolitano\n");
 					pizza2 = JOptionPane.showInputDialog("Digite o segundo sabor da sua pizza:\nAliche\nPortuguesa\nNapolitano\n");
-					JOptionPane.showMessageDialog(null, " SerÃ¡ enviado para o endereÃ§o " + endereco + " a pizza 1: "
+					JOptionPane.showMessageDialog(null, " Será enviado para o endereço " + endereco + " a pizza 1: "
 							+ pizza1 + " e a pizza 2: " + pizza2);
 				}
 				// opcao3
 				if (opcao == 3 && op == 1) {
-					pizza = JOptionPane.showInputDialog("Digite o sabor da sua pizza:\nFrango catupiry\nBacon\nMargarita");
+					pizza = JOptionPane.showInputDialog("Digite o sabor da sua pizza:\nFrango Catupiry\nBacon\nMargarita");
 					JOptionPane.showMessageDialog(null,
 							" Será enviado para o endereço " + endereco + " a pizza: " + pizza);
 
 				}
 				if (opcao == 3 && op == 2) {
-					pizza1 = JOptionPane.showInputDialog("Digite o primeiro sabor da sua pizza:\nFrango catupiry\nbacon\nmargarita");
-					pizza2 = JOptionPane.showInputDialog("Digite o segundo sabor da sua pizza:\nFrango catupiry\nbacon\nmargarita");
-					JOptionPane.showMessageDialog(null, " SerÃ¡ enviado para o endereÃ§o " + endereco + " a pizza 1: "
+					pizza1 = JOptionPane.showInputDialog("Digite o primeiro sabor da sua pizza:\nFrango Catupiry\nBacon\nMargarita");
+					pizza2 = JOptionPane.showInputDialog("Digite o segundo sabor da sua pizza:\nFrango Catupiry\nBacon\nMargarita");
+					JOptionPane.showMessageDialog(null, " Será enviado para o endereço " + endereco + " a pizza 1: "
 							+ pizza1 + " e a pizza 2: " + pizza2);
 				}
 			}
@@ -126,102 +126,102 @@ public class Hutflix {
 				if (opcao == 1 && op == 1) {
 					pizza = JOptionPane.showInputDialog("Digite o sabor da sua pizza:\nMuçarela\nCalabresa\nAlho");
 					JOptionPane.showMessageDialog(null,
-							" SerÃ¡ enviado para o endereÃ§o " + endereco + " a pizza: " + pizza);
+							" Será enviado para o endereço " + endereco + " a pizza: " + pizza);
 				}
 				if (opcao == 1 && op == 2) {
 					pizza1 = JOptionPane
 							.showInputDialog("Digite o primeiro sabor da sua pizza:\nMuçarela\nCalabresa\nAlho");
 
 					pizza2 = JOptionPane
-							.showInputDialog("Digite o segundo sabor da sua pizza:\nmuÃ§arela\ncalabresa\nalho");
+							.showInputDialog("Digite o segundo sabor da sua pizza:\nMuçarela\nCalabresa\nAlho");
 					JOptionPane.showMessageDialog(null, " Será enviado para o endereço " + endereco + " a pizza 1: "
 							+ pizza1 + " e a pizza 2: " + pizza2);
 				}
 				// opcao2
 				if (opcao == 2 && op == 1) {
-					pizza = JOptionPane.showInputDialog("Digite o sabor da sua pizza:\nquatro queijos\nbaiana\ncalifornia");
+					pizza = JOptionPane.showInputDialog("Digite o sabor da sua pizza:\nQuatro Queijos\nBaiana\nCalifornia");
 					JOptionPane.showMessageDialog(null,
-							" SerÃ¡ enviado para o endereÃ§o " + endereco + " a pizza: " + pizza);
+							" Será enviado para o endereço " + endereco + " a pizza: " + pizza);
 
 				}
 				if (opcao == 2 && op == 2) {
-					pizza1 = JOptionPane.showInputDialog("Digite o primeiro sabor da sua pizza:\nquatro queijos\nbaiana\ncalifornia");
-					pizza2 = JOptionPane.showInputDialog("Digite o segundo sabor da sua pizza:\nquatro queijos\nbaiana\ncalifornia");
-					JOptionPane.showMessageDialog(null, " SerÃ¡ enviado para o endereÃ§o" + endereco + " a pizza 1: "
+					pizza1 = JOptionPane.showInputDialog("Digite o primeiro sabor da sua pizza:\nQuatro Queijos\nBaiana\ncalifornia");
+					pizza2 = JOptionPane.showInputDialog("Digite o segundo sabor da sua pizza:\nQuatro Queijos\nBaiana\ncalifornia");
+					JOptionPane.showMessageDialog(null, " Será enviado para o endereço " + endereco + " a pizza 1: "
 							+ pizza1 + " e a pizza 2: " + pizza2);
 				}
 				// opcao3
 				if (opcao == 3 && op == 1) {
-					pizza = JOptionPane.showInputDialog("Digite o sabor da sua pizza:\nbrigadeiro\nlombo\nquatro queijos");
+					pizza = JOptionPane.showInputDialog("Digite o sabor da sua pizza:\nBrigadeiro\nLombo\nQuatro Queijos");
 					JOptionPane.showMessageDialog(null,
-							" SerÃ¡ enviado para o endereÃ§o " + endereco + " a pizza: " + pizza);
+							" Será enviado para o endereço " + endereco + " a pizza: " + pizza);
 				}
 				if (opcao == 3 && op == 2) {
 					pizza1 = JOptionPane
-							.showInputDialog("Digite o primeiro sabor da sua pizza:\nbrigadeiro\nlombo\nquatro queijos");
-					pizza2 = JOptionPane.showInputDialog("Digite o segundo sabor da sua pizza:\nbrigadeiro\nlombo\nquatro queijos");
-					JOptionPane.showMessageDialog(null, " SerÃ¡ enviado para o endereÃ§o " + endereco + " a pizza 1: "
+							.showInputDialog("Digite o primeiro sabor da sua pizza:\nBrigadeiro\nLombo\nQuatro Queijos");
+					pizza2 = JOptionPane.showInputDialog("Digite o segundo sabor da sua pizza:\nBrigadeiro\nLombo\nQuatro Queijos");
+					JOptionPane.showMessageDialog(null, " Será enviado para o endereço " + endereco + " a pizza 1: "
 							+ pizza1 + " e a pizza 2: " + pizza2);
 				}
 				// opcao4
 				if (opcao == 4 && op == 1) {
 					pizza = JOptionPane.showInputDialog("Digite o sabor da sua pizza:\nMuçarela\nCalabresa\nNapolitano");
 					JOptionPane.showMessageDialog(null,
-							" SerÃ¡ enviado para o endereÃ§o " + endereco + " a pizza: " + pizza);
+							" Será enviado para o endereço " + endereco + " a pizza: " + pizza);
 				}
 				if (opcao == 4 && op == 2) {
 					pizza1 = JOptionPane
 							.showInputDialog("Digite o primeiro sabor da sua pizza:\nMuçarela\nCalabresa\nNapolitano");
 					pizza2 = JOptionPane.showInputDialog("Digite o segundo sabor da sua pizza:\nMuçarela\nCalabresa\nNapolitano");
-					JOptionPane.showMessageDialog(null, " SerÃ¡ enviado para o endereÃ§o " + endereco + " a pizza 1: "
+					JOptionPane.showMessageDialog(null, " Será enviado para o endereço " + endereco + " a pizza 1: "
 							+ pizza1 + " e a pizza 2: " + pizza2);
 				}
 			}
 			// filme titanic
 			if (filmes == 4) {
 				o = JOptionPane.showInputDialog(
-						"Escolha uma caracteristica (Digite um numero): \n1 - Determinada\n2 - Centrada \n3 - romantica ");
+						"Escolha uma caracteristica (Digite um numero): \n1 - Determinada\n2 - Centrada \n3 - Romantica ");
 				opcao = Integer.parseInt(o);
 				q = JOptionPane.showInputDialog("Gostaria de 1 ou 2 pizza? levando 2 ganha um refri ! ");
 				op = Integer.parseInt(q);
 				if (opcao == 1 && op == 1) {
 					pizza = JOptionPane.showInputDialog("Digite o sabor da sua pizza:\nBrócolis\nAtum\nAlcachofra");
 					JOptionPane.showMessageDialog(null,
-							" SerÃ¡ enviado para o endereÃ§o " + endereco + " a pizza: " + pizza);
+							" Será enviado para o endereço " + endereco + " a pizza: " + pizza);
 				}
 				if (opcao == 1 && op == 2) {
 					pizza1 = JOptionPane
-							.showInputDialog("Digite o primeiro sabor da sua pizza:\nMuçarela\nCalabresa\nNapolitana");
+							.showInputDialog("Digite o primeiro sabor da sua pizza:\nBrócolis\nAtum\nAlcachofra");
 
 					pizza2 = JOptionPane
-							.showInputDialog("Digite o segundo sabor da sua pizza:\nRomeu e Julieta\nQuatro Queijos\nBrigadeiro");
-					JOptionPane.showMessageDialog(null, " SerÃ¡ enviado para o endereÃ§o " + endereco + " a pizza 1: "
+							.showInputDialog("Digite o segundo sabor da sua pizza:\nBrócolis\nAtum\nAlcachofra");
+					JOptionPane.showMessageDialog(null, " Será enviado para o endereço " + endereco + " a pizza 1: "
 							+ pizza1 + " e a pizza 2: " + pizza2);
 				}
 				// opcao2
 				if (opcao == 2 && op == 1) {
-					pizza = JOptionPane.showInputDialog("Digite o sabor da sua pizza:\nMuçarela\nCalabresa\nAlho");
+					pizza = JOptionPane.showInputDialog("Digite o sabor da sua pizza:\nMuçarela\nCalabresa\nNapolitana");
 					JOptionPane.showMessageDialog(null,
-							" SerÃ¡ enviado para o endereÃ§o " + endereco + " a pizza: " + pizza);
+							" Será enviado para o endereço " + endereco + " a pizza: " + pizza);
 
 				}
 				if (opcao == 2 && op == 2) {
-					pizza1 = JOptionPane.showInputDialog("Digite o primeiro sabor da sua pizza:\nMuçarela\nCalabresa\nAlho");
-					pizza2 = JOptionPane.showInputDialog("Digite o segundo sabor da sua pizza:\nMuçarela\nCalabresa\nAlho");
+					pizza1 = JOptionPane.showInputDialog("Digite o primeiro sabor da sua pizza:\nMuçarela\nCalabresa\nNapolitana");
+					pizza2 = JOptionPane.showInputDialog("Digite o segundo sabor da sua pizza:\nMuçarela\nCalabresa\nNapolitana");
 					JOptionPane.showMessageDialog(null, " SerÃ¡ enviado para o endereÃ§o " + endereco + " a pizza 1: "
 							+ pizza1 + " e a pizza 2: " + pizza2);
 				}
 				// opcao3
 				if (opcao == 3 && op == 1) {
-					pizza = JOptionPane.showInputDialog("Digite o sabor da sua pizza:\nFrango catupiry\nBacon\nMargarita");
+					pizza = JOptionPane.showInputDialog("Digite o sabor da sua pizza:\nRomeu e Julieta\nQuatro Queijos\nBrigadeiro");
 					JOptionPane.showMessageDialog(null,
-							" SerÃ¡ enviado para o endereÃ§o " + endereco + " a pizza: " + pizza);
+							" Será enviado para o endereço " + endereco + " a pizza: " + pizza);
 				}
 				if (opcao == 3 && op == 2) {
 					pizza1 = JOptionPane
-							.showInputDialog("Digite o primeiro sabor da sua pizza:\nFrango catupiry\nBacon\nMargarita");
-					pizza2 = JOptionPane.showInputDialog("Digite o segundo sabor da sua pizza:\nFrango catupiry\nBacon\nMargarita");
-					JOptionPane.showMessageDialog(null, " SerÃ¡ enviado para o endereÃ§o " + endereco + " a pizza 1: "
+							.showInputDialog("Digite o primeiro sabor da sua pizza:\nRomeu e Julieta\nQuatro Queijos\nBrigadeiro");
+					pizza2 = JOptionPane.showInputDialog("Digite o segundo sabor da sua pizza:\nRomeu e Julieta\nQuatro Queijos\nBrigadeiro");
+					JOptionPane.showMessageDialog(null, " Será enviado para o endereço " + endereco + " a pizza 1: "
 							+ pizza1 + " e a pizza 2: " + pizza2);
 				}
 			}
@@ -233,48 +233,48 @@ public class Hutflix {
 				q = JOptionPane.showInputDialog("Gostaria de 1 ou 2 pizza? levando 2 ganha um refri ! ");
 				op = Integer.parseInt(q);
 				if (opcao == 1 && op == 1) {
-					pizza = JOptionPane.showInputDialog("Digite o sabor da sua pizza:\nbaiana\nbacon\nchocolate com confeitos");
+					pizza = JOptionPane.showInputDialog("Digite o sabor da sua pizza:\nFrango Catupiry\nPepperoni\nCanguru");
 					JOptionPane.showMessageDialog(null,
-							" Será enviado para o endereço" + endereco + " a pizza: " + pizza);
+							" Será enviado para o endereço " + endereco + " a pizza: " + pizza);
 				}
 				if (opcao == 1 && op == 2) {
 					pizza1 = JOptionPane
-							.showInputDialog("Digite o primeiro sabor da sua pizza:\nBaiana\nBacon\nChocolate com confeitos");
+							.showInputDialog("Digite o primeiro sabor da sua pizza:\nFrango Catupiry\nPepperoni\nCanguru");
 
 					pizza2 = JOptionPane
-							.showInputDialog("Digite o segundo sabor da sua pizza:\nbaiana\nbacon\nchocolate com confeitos");
-					JOptionPane.showMessageDialog(null, " SerÃ¡ enviado para o endereÃ§o" + endereco + " a pizza 1: "
+							.showInputDialog("Digite o segundo sabor da sua pizza:\nFrango Catupiry\nPepperoni\nCanguru");
+					JOptionPane.showMessageDialog(null, " Será enviado para o endereço " + endereco + " a pizza 1: "
 							+ pizza1 + " e a pizza 2: " + pizza2);
 				}
 				// opcao2
 				if (opcao == 2 && op == 1) {
 					pizza = JOptionPane.showInputDialog("Digite o sabor da sua pizza:\nSushi\nAliche\nHot-dog");
 					JOptionPane.showMessageDialog(null,
-							" SerÃ¡ enviado para o endereÃ§o " + endereco + " a pizza: " + pizza);
+							" Será enviado para o endereço " + endereco + " a pizza: " + pizza);
 
 				}
 				if (opcao == 2 && op == 2) {
 					pizza1 = JOptionPane.showInputDialog("Digite o primeiro sabor da sua pizza:\nSushi\nAliche\nHot-dog");
 					pizza2 = JOptionPane.showInputDialog("Digite o segundo sabor da sua pizza:\nSushi\nAliche\nHot-dog");
-					JOptionPane.showMessageDialog(null, " SerÃ¡ enviado para o endereÃ§o " + endereco + " a pizza 1: "
+					JOptionPane.showMessageDialog(null, " Será enviado para o endereço " + endereco + " a pizza 1: "
 							+ pizza1 + " e a pizza 2: " + pizza2);
 				}
 				// opcao3
 				if (opcao == 3 && op == 1) {
 					pizza = JOptionPane.showInputDialog("Digite o sabor da sua pizza:\nMuçarela\nAlho\nBacon");
 					JOptionPane.showMessageDialog(null,
-							" SerÃ¡ enviado para o endereÃ§o " + endereco + " a pizza: " + pizza);
+							" Será enviado para o endereço " + endereco + " a pizza: " + pizza);
 				}
 				if (opcao == 3 && op == 2) {
 					pizza1 = JOptionPane
 							.showInputDialog("Digite o primeiro sabor da sua pizza:\nMuçarela\nAlho\nBacon");
 					pizza2 = JOptionPane.showInputDialog("Digite o segundo sabor da sua pizza:\nMuçarela\nAlho\nBacon");
-					JOptionPane.showMessageDialog(null, " SerÃ¡ enviado para o endereÃ§o " + endereco + " a pizza 1: "
+					JOptionPane.showMessageDialog(null, " Será enviado para o endereço " + endereco + " a pizza 1: "
 							+ pizza1 + " e a pizza 2: " + pizza2);
 				}
 			}
 
-			System.out.println("VocÃª Ã© o cliente nÃºmero: " + inum);
+			System.out.println("Você é o cliente número: " + inum);
 			inum++;
 		}
 
