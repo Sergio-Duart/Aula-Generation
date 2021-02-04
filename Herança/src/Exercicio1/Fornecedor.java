@@ -32,7 +32,7 @@ public class Fornecedor extends Pessoa {
 	}
 
 	public void setObtSal(float obtSal) {
-		ObtSal = ObtSal;
+		ObtSal = ValCre - ValDiv;
 	}
 	
 }
