@@ -14,13 +14,13 @@ SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='ONLY_FULL_GROUP_BY,STRICT_TRANS_TABLES,N
 -- -----------------------------------------------------
 -- Schema mydb
 -- -----------------------------------------------------
-CREATE SCHEMA IF NOT EXISTS `mydb` DEFAULT CHARACTER SET utf8 ;
-USE `mydb` ;
+CREATE SCHEMA IF NOT EXISTS `db_ServicoDeRH` DEFAULT CHARACTER SET utf8 ;
+USE `db_ServicoDeRH` ;
 
 -- -----------------------------------------------------
 -- Table `mydb`.`tb_rhfuncionario`
 -- -----------------------------------------------------
-CREATE TABLE IF NOT EXISTS `mydb`.`tb_rhfuncionario` (
+CREATE TABLE IF NOT EXISTS `db_ServicoDeRH`.`tb_rhfuncionario` (
   `idrhfuncionario` INT NOT NULL AUTO_INCREMENT,
   `Nome` VARCHAR(45) NOT NULL,
   `Setor` VARCHAR(45) NOT NULL,
@@ -36,5 +36,20 @@ SET SQL_MODE=@OLD_SQL_MODE;
 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS;
 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS;
 
-select * from tb_rhfuncionario where Salario > 2000.00;
+INSERT INTO db_ServicoDeRH.tb_rhfuncionario (Nome, Setor, Genero, Idade, Salario)
+VALUES 
+("Keqing", "Gerente", "Feminino", 40, 8000),
+("Xiao", "Terceirizado", "Masculino", 35, 2500),
+("Traveler", "Operario", "Feminino", 20, 1200),
+("Paimon", "Estagiaria", "Feminino", 15, 900),
+("Barbara", "Assistente", "Feminino", 30, 3000),
+("Kayley", "Operario", "Masculino", 25, 1900),
+("Zongli", "Supervisor", "Masculino", 35, 5000);
 
+SELECT * FROM db_ServicoDeRH.tb_rhfuncionario where Salario > 2000.00;
+
+SELECT * FROM db_ServicoDeRH.tb_rhfuncionario where Salario <= 2000.00;
+
+UPDATE db_ServicoDeRH.tb_rhfuncionario
+SET Salario = 2000
+WHERE Setor = "Operario";
