@@ -4,12 +4,11 @@ import java.util.List;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
-import com.farmacia.Drogaria.ModelCateg.Categoria;
+import com.farmacia.Drogaria.ModelProd.Produto;
 
-
-public interface ProdRepos extends JpaRepository <Categoria, Integer>{
-	public List<Categoria> findAllBynomeContainingIgnoreCase (String nome);
-	public List<Categoria> findAllBymarcaContainingIgnoreCase (double desconto);
-	
+public interface ProdRepos extends JpaRepository <Produto, Integer>{
+	public List<Produto> findAllBynomeContainingIgnoreCase (String nome);
+	public List<Produto> findAllBydescontoContainingIgnoreCase (double desconto);
+	public List<Produto> findAllByprecoContainingIgnoreCase (double preco);	
 	
 }
