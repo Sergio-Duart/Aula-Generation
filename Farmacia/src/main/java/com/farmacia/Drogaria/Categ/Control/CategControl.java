@@ -19,7 +19,7 @@ import com.farmacia.Drogaria.Categoria.Repos.CategRepos;
 import com.farmacia.Drogaria.ModelCateg.Categoria;
 
 @RestController
-@RequestMapping("/Categoria")
+@RequestMapping("/Categorias")
 @CrossOrigin(origins = "*", allowedHeaders = "*")
 public class CategControl {
 	
@@ -36,29 +36,24 @@ public class CategControl {
 		return CateRepo.findById(id).map(resp -> ResponseEntity.ok(resp)).orElse(ResponseEntity.notFound().build());
 	}
 	
+	@GetMapping("/nome/{nome}")
+	public ResponseEntity<List<Categoria>> GetByName(@PathVariable String nome){
+		return ResponseEntity.ok(CateRepo.findAllByNomeContainingIgnoreCase(nome));
+	}
+
 	@GetMapping("/marca/{marca}")
 	public ResponseEntity<List<Categoria>> GetByMarca(@PathVariable String marca){
-		return ResponseEntity.ok(CateRepo.findAllBymarcaContainingIgnoreCase(marca));
+		return ResponseEntity.ok(CateRepo.findAllByNomeContainingIgnoreCase(marca));
 	}
-
+	
 	@PostMapping
-	public ResponseEntity<Categoria> post(@RequestBody Categoria nome){
-		return ResponseEntity.status(HttpStatus.CREATED).body(CateRepo.save(nome));
-	}
-
-	@PostMapping
-	public ResponseEntity<Categoria> post1(@RequestBody Categoria marca){
-		return ResponseEntity.status(HttpStatus.CREATED).body(CateRepo.save(marca));
+	public ResponseEntity<Categoria> post(@RequestBody Categoria categ){
+		return ResponseEntity.status(HttpStatus.CREATED).body(CateRepo.save(categ));
 	}
 
 	@PutMapping
-	public ResponseEntity<Categoria> put(@RequestBody Categoria nome){
-		return ResponseEntity.status(HttpStatus.OK).body(CateRepo.save(nome));
-	}
-
-	@PutMapping
-	public ResponseEntity<Categoria> put1(@RequestBody Categoria marca){
-		return ResponseEntity.status(HttpStatus.OK).body(CateRepo.save(marca));
+	public ResponseEntity<Categoria> put(@RequestBody Categoria categ){
+		return ResponseEntity.status(HttpStatus.OK).body(CateRepo.save(categ));
 	}
 	
 	@DeleteMapping("/{id}")

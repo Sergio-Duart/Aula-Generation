@@ -16,7 +16,7 @@ import com.farmacia.Drogaria.ModelProd.Produto;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
 @Entity
-@Table (name = "tb_Categorias")
+@Table (name = "Categorias")
 public class Categoria {
 	
 	@Id

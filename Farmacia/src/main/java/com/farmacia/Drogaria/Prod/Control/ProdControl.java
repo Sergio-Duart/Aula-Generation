@@ -19,7 +19,7 @@ import com.farmacia.Drogaria.ModelProd.Produto;
 import com.farmacia.Drogaria.Produto.Repos.ProdRepos;
 
 @RestController
-@RequestMapping("/Produto")
+@RequestMapping("/Produtos")
 @CrossOrigin("*")
 public class ProdControl {
 	
@@ -37,43 +37,18 @@ public class ProdControl {
 	}
 	
 	@GetMapping("/desconto/{desconto}")
-	public ResponseEntity<List<Produto>> GetByDesconto(@PathVariable double desconto){
-		return ResponseEntity.ok(ProdRepo.findAllBydescontoContainingIgnoreCase(desconto));
-	}
-	
-	@GetMapping("/preco/{preco}")
-	public ResponseEntity<List<Produto>> GetByPreco(@PathVariable double preco){
-		return ResponseEntity.ok(ProdRepo.findAllByprecoContainingIgnoreCase(preco));
+	public ResponseEntity<List<Produto>> GetByDesconto(@PathVariable String nome){
+		return ResponseEntity.ok(ProdRepo.findAllByNomeContainingIgnoreCase(nome));
 	}
 
 	@PostMapping
-	public ResponseEntity<Produto> post(@RequestBody Produto nome){
-		return ResponseEntity.status(HttpStatus.CREATED).body(ProdRepo.save(nome));
+	public ResponseEntity<Produto> post(@RequestBody Produto produto){
+		return ResponseEntity.status(HttpStatus.CREATED).body(ProdRepo.save(produto));
 	}
-	
-	@PostMapping
-	public ResponseEntity<Produto> post1(@RequestBody Produto desconto){
-		return ResponseEntity.status(HttpStatus.CREATED).body(ProdRepo.save(desconto));
-	}
-	
-	@PostMapping
-	public ResponseEntity<Produto> post2(@RequestBody Produto preco){
-		return ResponseEntity.status(HttpStatus.CREATED).body(ProdRepo.save(preco));
-	}
-	
+
 	@PutMapping
-	public ResponseEntity<Produto> put(@RequestBody Produto nome){
-		return ResponseEntity.status(HttpStatus.OK).body(ProdRepo.save(nome));
-	}
-	
-	@PutMapping
-	public ResponseEntity<Produto> put1(@RequestBody Produto desconto){
-		return ResponseEntity.status(HttpStatus.OK).body(ProdRepo.save(desconto));
-	}
-	
-	@PutMapping
-	public ResponseEntity<Produto> put2(@RequestBody Produto preco){
-		return ResponseEntity.status(HttpStatus.OK).body(ProdRepo.save(preco));
+	public ResponseEntity<Produto> put(@RequestBody Produto produto){
+		return ResponseEntity.status(HttpStatus.OK).body(ProdRepo.save(produto));
 	}
 	
 	@DeleteMapping("/{id}")
