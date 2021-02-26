@@ -1,7 +1,5 @@
 package com.lojaGames.Fliperama.model;
 
-import java.util.List;
-
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
@@ -14,7 +12,7 @@ import javax.validation.constraints.Size;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
 @Entity
-@Table (name = "tb_Produtos")
+@Table (name = "Produtos")
 public class Produto {
 
 	@Id
@@ -27,14 +25,14 @@ public class Produto {
 	
 	@ManyToOne
 	@JsonIgnoreProperties("prod")
-	private List<Categoria> categ;
+	private Categoria categ;
 
-	
-	public List<Categoria> getCateg() {
+
+	public Categoria getCateg() {
 		return categ;
 	}
 
-	public void setCateg(List<Categoria> categ) {
+	public void setCateg(Categoria categ) {
 		this.categ = categ;
 	}
 

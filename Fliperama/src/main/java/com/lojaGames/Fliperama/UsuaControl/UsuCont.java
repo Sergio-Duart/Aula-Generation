@@ -20,7 +20,7 @@ import com.lojaGames.Fliperama.model.Usuario;
 
 
 @RestController
-@RequestMapping("/tb_Usuarios")
+@RequestMapping("Usuarios")
 @CrossOrigin(origins = "*", allowedHeaders = "*")
 public class UsuCont {
 

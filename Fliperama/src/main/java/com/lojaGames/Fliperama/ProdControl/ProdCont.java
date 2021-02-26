@@ -19,7 +19,7 @@ import com.lojaGames.Fliperama.ProRepository.ProdRepos;
 import com.lojaGames.Fliperama.model.Produto;
 
 @RestController
-@RequestMapping("/tb_Produtos")
+@RequestMapping("/Produtos")
 @CrossOrigin(origins = "*", allowedHeaders = "*")
 public class ProdCont {
 

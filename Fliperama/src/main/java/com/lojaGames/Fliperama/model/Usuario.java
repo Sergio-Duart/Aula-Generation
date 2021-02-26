@@ -9,7 +9,7 @@ import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Size;
 
 @Entity
-@Table (name = "tb_Usuarios")
+@Table (name = "Usuarios")
 public class Usuario {
 
 	@Id

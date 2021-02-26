@@ -19,7 +19,7 @@ import com.lojaGames.Fliperama.Carepository.CategRepos;
 import com.lojaGames.Fliperama.model.Categoria;
 
 @RestController
-@RequestMapping("/tb_Categorias")
+@RequestMapping("/Categorias")
 @CrossOrigin(origins = "*", allowedHeaders = "*")
 public class CategControl {
 
