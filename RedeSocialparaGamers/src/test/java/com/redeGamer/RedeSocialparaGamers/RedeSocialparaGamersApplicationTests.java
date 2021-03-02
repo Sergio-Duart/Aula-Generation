@@ -1,10 +1,10 @@
-package com.PI.Projeto.Integrador;
+package com.redeGamer.RedeSocialparaGamers;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class ApplicationTests {
+class RedeSocialparaGamersApplicationTests {
 
 	@Test
 	void contextLoads() {

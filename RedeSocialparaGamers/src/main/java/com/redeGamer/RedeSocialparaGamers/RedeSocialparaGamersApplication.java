@@ -1,13 +1,13 @@
-package com.PI.Projeto.Integrador;
+package com.redeGamer.RedeSocialparaGamers;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class Application {
+public class RedeSocialparaGamersApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(Application.class, args);
+		SpringApplication.run(RedeSocialparaGamersApplication.class, args);
 	}
 
 }
