@@ -1,8 +1,6 @@
 package Contato;
 
-import java.util.List;
 import javax.validation.ConstraintViolationException;
-import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Rule;
 import org.junit.Test;
@@ -14,7 +12,6 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 import com.redeGamer.RedeSocialparaGamers.model.ContatoModel;
 
-import org.springframework.data.jpa.repository.JpaRepository;
 
 
 //@RunWith rodará com o spring runner, 
